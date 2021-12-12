@@ -1,0 +1,23 @@
+server:
+  port: 8088
+
+
+#emp配置
+#emp:
+# lastName: tom.jheng
+# age: 30
+# salary: 40000
+# boss: true
+# birthday: 1990/12/31
+# map:
+#  key1: value1d
+#  key2: value2
+# list:
+#  - one
+#  - two
+#  - three
+# forte:
+#  name: java
+#  time: 1
+
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.tomjheng.springBoot</groupId>
+    <artifactId>spring-boot-01-hello</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!-- Inherit defaults from Spring Boot spring-boot-starter-parent spring-boot-starter-parent:繼承spring-boot-dependencies
+        spring-boot-dependencies裡面定義了很多組依賴的版本號，當引用依賴時不用寫<version>，接 -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.7.RELEASE</version>
+    </parent>
+    <!-- Add typical dependencies for a web application spring-boot-starter-web
+        spring-boot-starter-web:構建web項目，比如說Tomcat，SpringMvc，json spring-boot-starter:SpringBoot場景啟動器，他針對不同場景定義了不同的啟動器
+        你的專案需要甚麼樣的啟動器氣，直接依賴就可以 -->
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+    </dependencies>
+    <!-- 匯出jar包的插件 -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

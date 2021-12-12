@@ -1,0 +1,8 @@
+2021-12-08 20:51:39.988  INFO 190308 --- [main] .j.s.SpringBoot03LoggingApplicationTests : Starting SpringBoot03LoggingApplicationTests using Java 1.8.0_275 on tom-jheng with PID 190308 (started by Tom in E:\sideP\springBoot\spring-boot-03-logging)
+2021-12-08 20:51:39.990 DEBUG 190308 --- [main] .j.s.SpringBoot03LoggingApplicationTests : Running with Spring Boot v2.6.1, Spring v5.3.13
+2021-12-08 20:51:39.990  INFO 190308 --- [main] .j.s.SpringBoot03LoggingApplicationTests : No active profile set, falling back to default profiles: default
+2021-12-08 20:51:41.413  INFO 190308 --- [main] .j.s.SpringBoot03LoggingApplicationTests : Started SpringBoot03LoggingApplicationTests in 1.821 seconds (JVM running for 2.927)
+2021-12-08 20:51:41.696 DEBUG 190308 --- [main] .j.s.SpringBoot03LoggingApplicationTests : 這是debug日誌訊息
+2021-12-08 20:51:41.696  INFO 190308 --- [main] .j.s.SpringBoot03LoggingApplicationTests : 這是info日誌訊息
+2021-12-08 20:51:41.696  WARN 190308 --- [main] .j.s.SpringBoot03LoggingApplicationTests : 這是warn日誌訊息
+2021-12-08 20:51:41.696 ERROR 190308 --- [main] .j.s.SpringBoot03LoggingApplicationTests : 這是error日誌訊息
