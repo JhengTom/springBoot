@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-02-config-02" />
+        <module name="spring-boot-01-init-02" />
+        <module name="spring-boot-03-logging" />
+        <module name="spring-boot-02-config" />
+        <module name="spring-boot-01-hello" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MyFirstSpringBoot-init" target="1.8" />
+      <module name="spring-boot-01-hello" target="1.8" />
+      <module name="spring-boot-01-init-02" target="1.8" />
+      <module name="spring-boot-02-config" target="1.8" />
+      <module name="spring-boot-02-config-02" target="1.8" />
+      <module name="spring-boot-03-logging" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MyFirstSpringBoot-init" options="-parameters" />
+      <module name="spring-boot-01-hello" options="-parameters" />
+      <module name="spring-boot-01-init-02" options="-parameters" />
+      <module name="spring-boot-02-config" options="-parameters" />
+      <module name="spring-boot-02-config-02" options="-parameters" />
+      <module name="spring-boot-03-logging" options="-parameters" />
+    </option>
+  </component>
+</project>
